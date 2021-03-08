@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+.my-first-container{
+    background-color: bisque;
+}
+.my-second-container{
+    background-color: lightcoral;
+}
+.my-third-container{
+    background-color: lightseagreen;
+}
+.my-forth-container{
+    background-color: lightpink;
+}
+.border-1{
+    border-right: 2px solid white;
+}
+@media (max-width:768px) {
+    .border-1{
+        border-right: 0px;
+        border-bottom: 2px solid white;
+    }
+}
+.border-2{
+    border-left: 2px solid white;
+}
+@media (max-width:768px) {
+    .border-2{
+        border-left: 0px;
+        border-top: 2px solid white;
+    }
+}
+.my-last-container{
+    background-color: lightslategray;
+}
